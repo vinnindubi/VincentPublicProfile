@@ -11,8 +11,11 @@ export default function Navbar() {
         {/* Desktop Navigation Links */}
         <div className="hidden md:flex gap-8 text-sm font-medium text-slate-600">
           <a href="#home" className="hover:text-teal-700 transition-colors">Home</a>
-          <a href="#projects" className="hover:text-teal-700 transition-colors">Projects</a>
           <a href="#about" className="hover:text-teal-700 transition-colors">About</a>
+          <a href="#experience" className="hover:text-teal-700 transition-colors">Experience</a>
+          <a href="#education" className="hover:text-teal-700 transition-colors">Education</a>
+          <a href="#projects" className="hover:text-teal-700 transition-colors">Projects</a>
+          <a href="#documents" className="hover:text-teal-700 transition-colors">Documents</a>
         </div>
 
         {/* Contact Button */}

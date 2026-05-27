@@ -1,7 +1,11 @@
+import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import Projects from './components/Projects';
-import Navbar from './components/NavBar';
 import About from './components/About';
+import Experience from './components/Experience';
+import Education from './components/Education';
+import Projects from './components/Projects';
+import Documents from './components/Documents';
+import Contact from './components/Contact';
 function App() {
   return (
     /* This wrapper applies our soft off-white background to the whole site */
@@ -13,17 +17,15 @@ function App() {
       </header>
       <Navbar />
       {/* Rendering the component */}
-      <main>
-       < div id="hero">
-        <Hero />
-       </div>
+      <main >
+        <div id="home"><Hero /></div>
+        <div id="about"><About /></div>
+        <div id="experience"><Experience /></div>
+        <div id="education"><Education /></div>
+        <div id="projects"><Projects /></div>
+        <div id="documents"><Documents /></div>
+        <div id="contact"><Contact /></div>
 
-      <div id="projects">
-        <Projects />
-      </div>
-      <div id="about">
-        <About />
-      </div>
       </main>
 
     </div>

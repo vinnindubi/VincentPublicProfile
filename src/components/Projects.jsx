@@ -4,7 +4,7 @@ const projectsData = [
     title: "FedhaWatch",
     description: "A financial tracking dashboard designed to reveal and visualize shadow budget expenditures. Features interactive risk distribution charts and real-time data filtering.",
     techStack: ["React", "Chart.js", "Tailwind"],
-    liveLink: "#", // Replace with your actual Vercel link later
+    liveLink: "https://fedhawatch1.onrender.com/", // Replace with your actual Vercel link later
     githubLink: "#",
   },
   {
@@ -12,7 +12,7 @@ const projectsData = [
     title: "CoopConnect",
     description: "A dedicated student social media application built to boost campus engagement. Handles user authentication, real-time posts, and interactive community features.",
     techStack: ["Laravel", "Vue.js", "MySQL"],
-    liveLink: "#",
+    liveLink: "https://coopconnect-sabe.onrender.com/",
     githubLink: "#",
   }
 ];
@@ -53,10 +53,12 @@ export default function Projects() {
 
             {/* Links */}
             <div className="flex gap-4 border-t border-slate-100 pt-6">
-              <a href={project.liveLink} className="text-teal-700 font-medium hover:text-teal-800 transition-colors">
+              <a href={project.liveLink} className="text-teal-700 font-medium hover:text-teal-800 transition-colors" target="_blank" 
+                rel="noopener noreferrer">
                 Live Site &rarr;
               </a>
-              <a href={project.githubLink} className="text-slate-500 font-medium hover:text-slate-800 transition-colors">
+              <a href={project.githubLink} className="text-slate-500 font-medium hover:text-slate-800 transition-colors" target="_blank" 
+                rel="noopener noreferrer">
                 GitHub Repository
               </a>
             </div>
