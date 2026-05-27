@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import Documents from './components/Documents';
 import Contact from './components/Contact';
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react"
 function App() {
   return (
     /* This wrapper applies our soft off-white background to the whole site */
@@ -29,7 +30,7 @@ function App() {
 
       </main>
       <Analytics />
-
+      <SpeedInsights />
     </div>
   )
 }
